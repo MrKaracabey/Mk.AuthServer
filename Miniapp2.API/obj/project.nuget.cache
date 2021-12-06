@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "IVuD8unno1rfj3p/zRbWcr1Z5WjrFO0upWsCJ0zDnZHZWnSq8HLhDx6mInPoFEyyZLdrSEwq4Hur31lmju9k7g==",
+  "success": true,
+  "projectFilePath": "/Users/administrator/Desktop/Mustafa KARACABEY/Software Engineer/BackEnd/DotnetCore/Local Works/Mk.AuthServer/Miniapp2.API/Miniapp2.API.csproj",
+  "expectedPackageFiles": [
+    "/Users/administrator/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/administrator/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/administrator/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "/Users/administrator/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "/Users/administrator/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "/Users/administrator/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}

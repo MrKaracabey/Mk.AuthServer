@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "uurPL5u2n3wCUjWeT8ZZ85lJUWuA1ALqD9YSdVrdQko=",
+  "Source": "Mk.AuthServer.API",
+  "BasePath": "_content/Mk.AuthServer.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
