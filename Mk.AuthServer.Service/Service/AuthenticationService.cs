@@ -122,6 +122,7 @@ namespace Mk.AuthServer.Service.Service
 
         public Response<ClientTokenDto> CreateClientTokenAsync(ClientLoginDto clientLoginDto)
         {
+            var deneme = _clients.Count;
             var client = _clients.SingleOrDefault(x =>
                 x.ClientId == clientLoginDto.ClientId && x.Secret == clientLoginDto.ClientSecret);
 

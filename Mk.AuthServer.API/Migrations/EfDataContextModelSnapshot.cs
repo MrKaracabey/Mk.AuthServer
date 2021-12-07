@@ -252,10 +252,6 @@ namespace Mk.AuthServer.API.Migrations
                     b.Property<DateTime>("ExpirationDate")
                         .HasColumnType("timestamp with time zone");
 
-                    b.Property<string>("RefreshToken")
-                        .IsRequired()
-                        .HasColumnType("text");
-
                     b.HasKey("UserId");
 
                     b.ToTable("UserRefreshTokens");

@@ -77,8 +77,8 @@ namespace Mk.AuthServer.Service.Service
 
         public TokenDto CreateToken(UserApp userApp)
         {
-            var tokenExpirationDate = DateTime.Now.AddMinutes(_tokenOptions.AccessTokenExpiration);
-            var refreshTokenExpirationDate = DateTime.Now.AddMinutes(_tokenOptions.RefreshTokenExpiration);
+            var tokenExpirationDate = DateTime.UtcNow.AddMinutes(_tokenOptions.AccessTokenExpiration);
+            var refreshTokenExpirationDate = DateTime.UtcNow.AddMinutes(_tokenOptions.RefreshTokenExpiration);
             var securityKey = SignService.GetSymetricSecurityKey(_tokenOptions.SecurityKey);
 
             SigningCredentials signingCredentials =
@@ -86,7 +86,7 @@ namespace Mk.AuthServer.Service.Service
             JwtSecurityToken jwtSecurityToken = new JwtSecurityToken(
                 issuer: _tokenOptions.Issuer,
                 expires:tokenExpirationDate,
-                notBefore:DateTime.Now,
+                notBefore:DateTime.UtcNow,
                 claims:GetClaim(userApp, _tokenOptions.Audience),
                 signingCredentials:signingCredentials
             );

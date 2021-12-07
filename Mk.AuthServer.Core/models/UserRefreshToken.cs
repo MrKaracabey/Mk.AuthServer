@@ -6,7 +6,6 @@ namespace Mk.AuthServer.Core.models
     {
         public string UserId { get; set; }
         public string Code { get; set; }
-        public string RefreshToken { get; set; }
         public DateTime ExpirationDate { get; set; }
     }
 }

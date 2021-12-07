@@ -1,6 +1,8 @@
+using System.Data.Entity.Infrastructure;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Mk.AuthServer.Core.Extensions;
 using Mk.AuthServer.Core.models;
 
 namespace Mk.AuthServer.API.Data
@@ -19,7 +21,6 @@ namespace Mk.AuthServer.API.Data
         {
             modelBuilder.ApplyConfigurationsFromAssembly(GetType().Assembly);
             base.OnModelCreating(modelBuilder);
-            
         }
     }
 }

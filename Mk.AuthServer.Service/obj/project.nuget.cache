@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Wbzr7HJMMOEeoC9HzxijmXB9GLDXSS/LHHGrP9kqhgDdYO71GKQho6ZCLfqxwgbyvi9GB4LLSP9oLXwa32Q2BA==",
+  "dgSpecHash": "w8Dr/4vSQnVqySUB+A4Mn1+02Gm9p/+/dkQvi90Sc2jtD8bm9yedd+IBfz0l8z/iTHXQ4qYDmP9Knt/6BtxhLg==",
   "success": true,
   "projectFilePath": "/Users/administrator/Desktop/Mustafa KARACABEY/Software Engineer/BackEnd/DotnetCore/Local Works/Mk.AuthServer/Mk.AuthServer.Service/Mk.AuthServer.Service.csproj",
   "expectedPackageFiles": [
@@ -31,6 +31,7 @@
     "/Users/administrator/.nuget/packages/npgsql/6.0.0/npgsql.6.0.0.nupkg.sha512",
     "/Users/administrator/.nuget/packages/npgsql.entityframeworkcore.postgresql/6.0.0/npgsql.entityframeworkcore.postgresql.6.0.0.nupkg.sha512",
     "/Users/administrator/.nuget/packages/system.collections.immutable/6.0.0/system.collections.immutable.6.0.0.nupkg.sha512",
+    "/Users/administrator/.nuget/packages/system.componentmodel.annotations/6.0.0-preview.4.21253.7/system.componentmodel.annotations.6.0.0-preview.4.21253.7.nupkg.sha512",
     "/Users/administrator/.nuget/packages/system.diagnostics.diagnosticsource/6.0.0/system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "/Users/administrator/.nuget/packages/system.identitymodel.tokens.jwt/6.14.1/system.identitymodel.tokens.jwt.6.14.1.nupkg.sha512",
     "/Users/administrator/.nuget/packages/system.reflection.emit/4.7.0/system.reflection.emit.4.7.0.nupkg.sha512",

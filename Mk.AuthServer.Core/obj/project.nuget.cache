@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Ow+F8ckHPW2pf6dMB7jYnFFIPJ60PAqsR9YsyWCfM8NAh3JQsdDVl1TFWkpd14FysJVYEUltmHs7Zcff/u4hJQ==",
+  "dgSpecHash": "JGNxGtn7IgZDjoYfa73wUt+GjP/mrXIWR3gPI79Sjv2HiUbOYrct8NxRvio1gYU5RqR1CzCojGrtTYFB6c7m7Q==",
   "success": true,
   "projectFilePath": "/Users/administrator/Desktop/Mustafa KARACABEY/Software Engineer/BackEnd/DotnetCore/Local Works/Mk.AuthServer/Mk.AuthServer.Core/Mk.AuthServer.Core.csproj",
   "expectedPackageFiles": [
@@ -23,6 +23,7 @@
     "/Users/administrator/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
     "/Users/administrator/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "/Users/administrator/.nuget/packages/system.collections.immutable/6.0.0/system.collections.immutable.6.0.0.nupkg.sha512",
+    "/Users/administrator/.nuget/packages/system.componentmodel.annotations/6.0.0-preview.4.21253.7/system.componentmodel.annotations.6.0.0-preview.4.21253.7.nupkg.sha512",
     "/Users/administrator/.nuget/packages/system.diagnostics.diagnosticsource/6.0.0/system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "/Users/administrator/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],

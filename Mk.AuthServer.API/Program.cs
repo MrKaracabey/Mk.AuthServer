@@ -57,8 +57,8 @@ builder.Services.AddAuthentication(options =>
     })
     .AddJwtBearer(JwtBearerDefaults.AuthenticationScheme, opt =>
     {
-        var tokenOptions = builder.Configuration.GetSection("TokenOption").Get<CustomTokenOptions>();
-        opt.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters()
+        var tokenOptions = builder.Configuration.GetSection("TokenOptions").Get<CustomTokenOptions>();
+        opt.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
         {
             ValidIssuer = tokenOptions.Issuer,
             ValidAudience = tokenOptions.Audience[0],
@@ -83,7 +83,12 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+//ORDER IS IMPORTANT !!!!
 app.UseHttpsRedirection();
+
+app.UseRouting();
+
+app.UseAuthentication();
 
 app.UseAuthorization();
 
